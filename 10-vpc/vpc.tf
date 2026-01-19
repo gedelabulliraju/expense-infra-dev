@@ -1,3 +1,4 @@
+# VPC Module
 module "vpc" {
     source  = "git::https://github.com/gedelabulliraju/terraform-aws-vpc.git"
     vpc_cidr = var.vpc_cidr
